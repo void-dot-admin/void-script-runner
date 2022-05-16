@@ -2,9 +2,9 @@
 A repo with all the Jira groovy scrips that I create for Jira Server & Data Center
 
 # Introduction
-#you can see every usage of the scripts in every file
-#either as a hint in the .groovy file name
-#or as a comment in the script file
+#you can see every usage of the scripts in every file  
+#either as a hint in the .groovy file name  
+#or as a comment in the script file  
 
 # Contributors
      -void-dot-admin
