@@ -12,8 +12,8 @@ import org.apache.log4j.Level
     * just copy-paste this is your console
     * replace any changeable variables like the JQL, linkTypeId, the newLink Outward
     * run the script
-    * i've created this script in the situation where one link should be replace with a new one
-    * there is a part2 of this that will remove the OLD link from ALL issues - check the other files in the repo
+    * I've created this script in the situation where one link should be replace with a new one
+    * there is a part2 of this that will remove the OLD link from ALL issues - check the other file in the repo: bulkReplaceIssueLinksRemoveOldLink.groovy
 */
 
 // set the logger to be easier to read
@@ -59,3 +59,6 @@ regularIssues.each { Issue issue ->
         }
     }
 }
+
+logger.info("Done")
+return
