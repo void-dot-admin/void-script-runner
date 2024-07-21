@@ -4,7 +4,7 @@ import com.atlassian.jira.component.ComponentAccessor
 import static com.atlassian.jira.issue.IssueFieldConstants.*
 
 /*
-  *This behaviour will creat an issue Template for your project
+  *This behaviour will create issue Templates feature for your project
   *Just make sure to add this behaviour as a Server Side script for your Issue Picker scripted field
   *is NOT working as an Initializer
   *FULL VIDEO GUIDE: https://www.youtube.com/watch?v=f_qumaGtBrc
