@@ -14,7 +14,7 @@ def regex = "[1-9]|1[0-9]|2[0-4]"
 /* regex explained:
     * [1-9] - number from 1 to 9
     * 1[0-91 - number from 10 to 19
-    * 2[0-9] - number from 20 to 24
+    * 2[0-4] - number from 20 to 24
     * is required to add "|" - equivalent to an OR
 */
 
