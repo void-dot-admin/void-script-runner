@@ -1,6 +1,6 @@
 import static com.atlassian.jira.issue.IssueFieldConstants.RESOLUTION
 
-/*
+/* 
     *This Initialiser behaviour will restrict the resolutions
     *based on the Issue Types
     *please place this script as an Initialiser in your behaviour
