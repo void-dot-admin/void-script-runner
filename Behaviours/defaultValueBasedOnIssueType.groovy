@@ -2,6 +2,7 @@
  * Behaviour script that prefills description
  * to a default value based on Issuetype
  * that works only on create screen
+ * add this script as an Initialiser behaviour
  */
 
 final String BUG_DESCRIPTION = """* Response/Error problem: 
@@ -14,12 +15,12 @@ final String BUG_DESCRIPTION = """* Response/Error problem:
 final String EPIC_DESCRIPTION = """* For what environment: 
 * UI testing (y/n): 
 """
-final String REQ_DESCRIPTION = """* Please specify the environment:"""
+final String TASK_DESCRIPTION = """* Please specify the environment:"""
 
 def descriptionField = getFieldById("description")
 def issueContext = issueContext.issueType.name
 
-//should work only on create screen
+//will work only on create screen
 if (!( getActionName() in ["Create Issue", "Create"] )) {
     return
 }
@@ -29,6 +30,6 @@ switch(issueContext) {
         break
     case "Epic" : descriptionField.setFormValue(EPIC_DESCRIPTION)
         break
-    case "Requirement" : descriptionField.setFormValue(REQ_DESCRIPTION)
+    case "Task" : descriptionField.setFormValue(TASK_DESCRIPTION)
         break
 }
