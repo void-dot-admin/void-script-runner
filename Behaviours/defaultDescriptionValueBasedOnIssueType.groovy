@@ -2,7 +2,7 @@
  * Behaviour script that prefills description
  * to a default value based on Issuetype
  * that works only on create screen
- * add this script as an Initialiser behaviour
+ * add this script as a server-side-script behaviour on "Issue Type" field
  */
 
 final String BUG_DESCRIPTION = """* Response/Error problem: 
